@@ -1,4 +1,4 @@
-
+require_relative 'grid'
 
 class Block
 
@@ -8,5 +8,9 @@ class Block
       @columns = columns
                 
   end   
+
+  def block_array_count
+    @block_array.count * @block_array[0].count
+  end
 
 end     

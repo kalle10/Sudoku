@@ -1,3 +1,5 @@
+
+
 class Grid
 
 	def initialize(puzzle)
