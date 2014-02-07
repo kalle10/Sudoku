@@ -10,13 +10,22 @@ require './lib/block'
 			expect(block.block_array_count).to eq 9
 
 	end
-	# it 'should be empty' do
+
+	it 'checks if its empty' do
+			expect(block.empty?).to eq true
+	end
 
 
+	it 'checks if its full' do 
+			expect(block.full?).to eq true
+	end
+
+	# it 'should solve the block' do
+	# 		expect(block.solved).to eq true
 	# end
 
-	# it 'should be full' do
-
-
+	# it 'should return the block back to grid when solved' do
 	# end
+
+	
 end
